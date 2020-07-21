@@ -1,0 +1,359 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.gin.elder2"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="18"
+8-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:7:5-67
+11-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:7:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:8:5-79
+12-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:8:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:9:5-68
+13-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:9:22-65
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:10:5-64
+14-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:10:22-62
+15
+16    <uses-feature android:name="android.hardware.camera.autofocus" />
+16-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:11:5-69
+16-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:11:19-67
+17
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:12:5-97
+18-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:12:22-78
+19
+20    <application
+20-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:13:5-131:19
+21        android:name="androidx.multidex.MultiDexApplication"
+22        android:allowBackup="true"
+22-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:15:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.1.0] C:\Users\lab410\.gradle\caches\transforms-2\files-2.1\b2b51ad2129f7ae88186ad90508b79ab\core-1.1.0\AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:hardwareAccelerated="false"
+25-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:16:9-44
+26        android:icon="@mipmap/ic_launcher"
+26-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:18:9-43
+27        android:label="@string/app_name"
+27-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:19:9-41
+28        android:largeHeap="true"
+28-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:17:9-33
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:20:9-54
+30        android:supportsRtl="true"
+30-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:21:9-35
+31        android:testOnly="true"
+32        android:theme="@style/AppTheme" >
+32-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:22:9-40
+33        <activity
+33-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:23:9-28:65
+34            android:name="com.example.gin.elder2.MainActivity"
+34-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:24:13-41
+35            android:configChanges="orientation|keyboardHidden"
+35-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:28:13-63
+36            android:label="@string/app_name"
+36-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:25:13-45
+37            android:screenOrientation="portrait"
+37-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:27:13-49
+38            android:theme="@style/AppTheme.NoActionBar" />
+38-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:26:13-56
+39        <activity android:name="com.example.gin.elder2.register" >
+39-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:29:13-35:20
+39-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:29:23-47
+40            <intent-filter>
+40-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:30:13-34:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:31:17-69
+41-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:31:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:33:17-77
+43-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:33:27-74
+44            </intent-filter>
+45        </activity>
+46        <activity
+46-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:36:9-40:20
+47            android:name="com.example.gin.elder2.video"
+47-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:37:13-34
+48            android:configChanges="orientation|keyboardHidden"
+48-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:39:13-63
+49            android:screenOrientation="portrait" >
+49-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:38:13-49
+50        </activity>
+51        <activity
+51-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:41:9-45:20
+52            android:name="com.example.gin.elder2.materials"
+52-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:42:13-38
+53            android:configChanges="orientation|keyboardHidden"
+53-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:44:13-63
+54            android:screenOrientation="portrait" >
+54-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:43:13-49
+55        </activity>
+56        <activity
+56-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:46:9-50:20
+57            android:name="com.example.gin.elder2.scenario"
+57-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:47:13-37
+58            android:configChanges="orientation|keyboardHidden"
+58-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:49:13-63
+59            android:screenOrientation="portrait" >
+59-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:48:13-49
+60        </activity>
+61        <activity
+61-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:51:9-55:20
+62            android:name="com.example.gin.elder2.scenario1"
+62-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:52:13-38
+63            android:configChanges="orientation|keyboardHidden"
+63-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:54:13-63
+64            android:screenOrientation="portrait" >
+64-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:53:13-49
+65        </activity>
+66        <activity
+66-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:56:9-60:20
+67            android:name="com.example.gin.elder2.tabmain"
+67-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:57:13-36
+68            android:configChanges="orientation|keyboardHidden"
+68-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:59:13-63
+69            android:screenOrientation="portrait" >
+69-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:58:13-49
+70        </activity>
+71        <activity
+71-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:61:9-65:20
+72            android:name="com.example.gin.elder2.CameraActivity"
+72-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:62:13-43
+73            android:configChanges="orientation|keyboardHidden"
+73-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:64:13-63
+74            android:screenOrientation="portrait" >
+74-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:63:13-49
+75        </activity>
+76        <activity
+76-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:66:9-70:20
+77            android:name="com.example.gin.elder2.Takepic"
+77-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:67:13-36
+78            android:configChanges="orientation|keyboardHidden"
+78-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:69:13-63
+79            android:screenOrientation="portrait" >
+79-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:68:13-49
+80        </activity>
+81        <activity
+81-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:71:9-74:76
+82            android:name="com.example.gin.elder2.cameraMain"
+82-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:72:13-39
+83            android:configChanges="orientation|keyboardHidden"
+83-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:74:13-63
+84            android:screenOrientation="portrait" >
+84-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:73:13-49
+85        </activity>
+86        <activity
+86-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:75:9-78:76
+87            android:name="com.example.gin.elder2.emotionresult"
+87-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:76:13-42
+88            android:configChanges="orientation|keyboardHidden"
+88-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:78:13-63
+89            android:screenOrientation="portrait" >
+89-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:77:13-49
+90        </activity>
+91        <activity
+91-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:79:9-82:76
+92            android:name="com.example.gin.elder2.share"
+92-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:80:13-34
+93            android:configChanges="orientation|keyboardHidden"
+93-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:82:13-63
+94            android:screenOrientation="portrait" >
+94-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:81:13-49
+95        </activity>
+96        <activity
+96-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:83:9-86:76
+97            android:name="com.example.gin.elder2.social"
+97-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:84:13-35
+98            android:configChanges="orientation|keyboardHidden"
+98-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:86:13-63
+99            android:screenOrientation="portrait" >
+99-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:85:13-49
+100        </activity>
+101        <activity
+101-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:87:9-90:76
+102            android:name="com.example.gin.elder2.social2"
+102-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:88:13-36
+103            android:configChanges="orientation|keyboardHidden"
+103-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:90:13-63
+104            android:screenOrientation="portrait" >
+104-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:89:13-49
+105        </activity>
+106        <activity
+106-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:91:9-94:76
+107            android:name="com.example.gin.elder2.social3"
+107-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:92:13-36
+108            android:configChanges="orientation|keyboardHidden"
+108-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:94:13-63
+109            android:screenOrientation="landscape" >
+109-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:93:13-50
+110        </activity>
+111        <activity
+111-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:95:9-98:76
+112            android:name="com.example.gin.elder2.social4"
+112-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:96:13-36
+113            android:configChanges="orientation|keyboardHidden"
+113-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:98:13-63
+114            android:screenOrientation="portrait" >
+114-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:97:13-49
+115        </activity>
+116        <activity
+116-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:99:9-102:76
+117            android:name="com.example.gin.elder2.social5"
+117-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:100:13-36
+118            android:configChanges="orientation|keyboardHidden"
+118-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:102:13-63
+119            android:screenOrientation="landscape" >
+119-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:101:13-50
+120        </activity>
+121        <activity
+121-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:103:9-106:76
+122            android:name="com.example.gin.elder2.co1"
+122-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:104:13-32
+123            android:configChanges="orientation|keyboardHidden"
+123-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:106:13-63
+124            android:screenOrientation="landscape" >
+124-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:105:13-50
+125        </activity>
+126        <activity
+126-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:107:9-110:76
+127            android:name="com.example.gin.elder2.co2"
+127-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:108:13-32
+128            android:configChanges="orientation|keyboardHidden"
+128-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:110:13-63
+129            android:screenOrientation="landscape" >
+129-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:109:13-50
+130        </activity>
+131        <activity
+131-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:111:9-114:76
+132            android:name="com.example.gin.elder2.physical1"
+132-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:112:13-38
+133            android:configChanges="orientation|keyboardHidden"
+133-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:114:13-63
+134            android:screenOrientation="landscape" >
+134-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:113:13-50
+135        </activity>
+136        <activity
+136-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:115:9-118:76
+137            android:name="com.example.gin.elder2.physical2"
+137-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:116:13-38
+138            android:configChanges="orientation|keyboardHidden"
+138-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:118:13-63
+139            android:screenOrientation="landscape" >
+139-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:117:13-50
+140        </activity>
+141        <activity
+141-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:119:9-122:76
+142            android:name="com.example.gin.elder2.comm"
+142-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:120:13-33
+143            android:configChanges="orientation|keyboardHidden"
+143-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:122:13-63
+144            android:screenOrientation="landscape" >
+144-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:121:13-50
+145        </activity>
+146        <activity
+146-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:123:9-126:76
+147            android:name="com.example.gin.elder2.tool"
+147-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:124:13-33
+148            android:configChanges="orientation|keyboardHidden"
+148-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:126:13-63
+149            android:screenOrientation="landscape" >
+149-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:125:13-50
+150        </activity>
+151        <activity
+151-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:127:9-130:76
+152            android:name="com.example.gin.elder2.toolchoose"
+152-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:128:13-39
+153            android:configChanges="orientation|keyboardHidden"
+153-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:130:13-63
+154            android:screenOrientation="landscape" >
+154-->C:\Users\lab410\Desktop\savenewElder2_final\app\src\main\AndroidManifest.xml:129:13-50
+155        </activity>
+156
+157        <service
+157-->[com.google.firebase:firebase-firestore:21.4.2] C:\Users\lab410\.gradle\caches\transforms-2\files-2.1\2025958679a19ab479f24891c49aa976\jetified-firebase-firestore-21.4.2\AndroidManifest.xml:17:9-23:19
+158            android:name="com.google.firebase.components.ComponentDiscoveryService"
+158-->[com.google.firebase:firebase-firestore:21.4.2] C:\Users\lab410\.gradle\caches\transforms-2\files-2.1\2025958679a19ab479f24891c49aa976\jetified-firebase-firestore-21.4.2\AndroidManifest.xml:18:13-84
+159            android:directBootAware="true"
+159-->[com.google.firebase:firebase-common:19.3.0] C:\Users\lab410\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+160            android:exported="false" >
+160-->[com.google.firebase:firebase-firestore:21.4.2] C:\Users\lab410\.gradle\caches\transforms-2\files-2.1\2025958679a19ab479f24891c49aa976\jetified-firebase-firestore-21.4.2\AndroidManifest.xml:19:13-37
+161            <meta-data
+161-->[com.google.firebase:firebase-firestore:21.4.2] C:\Users\lab410\.gradle\caches\transforms-2\files-2.1\2025958679a19ab479f24891c49aa976\jetified-firebase-firestore-21.4.2\AndroidManifest.xml:20:13-22:85
+162                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+162-->[com.google.firebase:firebase-firestore:21.4.2] C:\Users\lab410\.gradle\caches\transforms-2\files-2.1\2025958679a19ab479f24891c49aa976\jetified-firebase-firestore-21.4.2\AndroidManifest.xml:21:17-111
+163                android:value="com.google.firebase.components.ComponentRegistrar" />
+163-->[com.google.firebase:firebase-firestore:21.4.2] C:\Users\lab410\.gradle\caches\transforms-2\files-2.1\2025958679a19ab479f24891c49aa976\jetified-firebase-firestore-21.4.2\AndroidManifest.xml:22:17-82
+164            <meta-data
+164-->[com.google.firebase:firebase-database:19.3.1] C:\Users\lab410\.gradle\caches\transforms-2\files-2.1\6ae2d636d1b0a123e40b25bf192e7a20\jetified-firebase-database-19.3.1\AndroidManifest.xml:32:13-34:85
+165                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+165-->[com.google.firebase:firebase-database:19.3.1] C:\Users\lab410\.gradle\caches\transforms-2\files-2.1\6ae2d636d1b0a123e40b25bf192e7a20\jetified-firebase-database-19.3.1\AndroidManifest.xml:33:17-109
+166                android:value="com.google.firebase.components.ComponentRegistrar" />
+166-->[com.google.firebase:firebase-database:19.3.1] C:\Users\lab410\.gradle\caches\transforms-2\files-2.1\6ae2d636d1b0a123e40b25bf192e7a20\jetified-firebase-database-19.3.1\AndroidManifest.xml:34:17-82
+167            <meta-data
+167-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\lab410\.gradle\caches\transforms-2\files-2.1\4b6c239d10ee2845936010180a95495d\jetified-firebase-auth-19.3.2\AndroidManifest.xml:36:13-38:85
+168                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+168-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\lab410\.gradle\caches\transforms-2\files-2.1\4b6c239d10ee2845936010180a95495d\jetified-firebase-auth-19.3.2\AndroidManifest.xml:37:17-109
+169                android:value="com.google.firebase.components.ComponentRegistrar" />
+169-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\lab410\.gradle\caches\transforms-2\files-2.1\4b6c239d10ee2845936010180a95495d\jetified-firebase-auth-19.3.2\AndroidManifest.xml:38:17-82
+170            <meta-data
+170-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\lab410\.gradle\caches\transforms-2\files-2.1\b338bb93c259f5f56bb62754a45d233c\jetified-firebase-storage-19.1.1\AndroidManifest.xml:33:13-35:85
+171                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+171-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\lab410\.gradle\caches\transforms-2\files-2.1\b338bb93c259f5f56bb62754a45d233c\jetified-firebase-storage-19.1.1\AndroidManifest.xml:34:17-107
+172                android:value="com.google.firebase.components.ComponentRegistrar" />
+172-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\lab410\.gradle\caches\transforms-2\files-2.1\b338bb93c259f5f56bb62754a45d233c\jetified-firebase-storage-19.1.1\AndroidManifest.xml:35:17-82
+173        </service>
+174
+175        <activity
+175-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\lab410\.gradle\caches\transforms-2\files-2.1\4b6c239d10ee2845936010180a95495d\jetified-firebase-auth-19.3.2\AndroidManifest.xml:24:9-31:50
+176            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+176-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\lab410\.gradle\caches\transforms-2\files-2.1\4b6c239d10ee2845936010180a95495d\jetified-firebase-auth-19.3.2\AndroidManifest.xml:25:13-85
+177            android:excludeFromRecents="true"
+177-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\lab410\.gradle\caches\transforms-2\files-2.1\4b6c239d10ee2845936010180a95495d\jetified-firebase-auth-19.3.2\AndroidManifest.xml:26:13-46
+178            android:exported="true"
+178-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\lab410\.gradle\caches\transforms-2\files-2.1\4b6c239d10ee2845936010180a95495d\jetified-firebase-auth-19.3.2\AndroidManifest.xml:27:13-36
+179            android:launchMode="singleTask"
+179-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\lab410\.gradle\caches\transforms-2\files-2.1\4b6c239d10ee2845936010180a95495d\jetified-firebase-auth-19.3.2\AndroidManifest.xml:28:13-44
+180            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+180-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\lab410\.gradle\caches\transforms-2\files-2.1\4b6c239d10ee2845936010180a95495d\jetified-firebase-auth-19.3.2\AndroidManifest.xml:29:13-102
+181            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+181-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\lab410\.gradle\caches\transforms-2\files-2.1\4b6c239d10ee2845936010180a95495d\jetified-firebase-auth-19.3.2\AndroidManifest.xml:30:13-72
+182
+183        <provider
+183-->[com.google.firebase:firebase-common:19.3.0] C:\Users\lab410\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+184            android:name="com.google.firebase.provider.FirebaseInitProvider"
+184-->[com.google.firebase:firebase-common:19.3.0] C:\Users\lab410\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+185            android:authorities="com.example.gin.elder2.firebaseinitprovider"
+185-->[com.google.firebase:firebase-common:19.3.0] C:\Users\lab410\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+186            android:exported="false"
+186-->[com.google.firebase:firebase-common:19.3.0] C:\Users\lab410\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+187            android:initOrder="100" />
+187-->[com.google.firebase:firebase-common:19.3.0] C:\Users\lab410\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+188
+189        <activity
+189-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\lab410\.gradle\caches\transforms-2\files-2.1\78b13228d1b7806e4595749364e08dfc\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+190            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+190-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\lab410\.gradle\caches\transforms-2\files-2.1\78b13228d1b7806e4595749364e08dfc\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+191            android:exported="false"
+191-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\lab410\.gradle\caches\transforms-2\files-2.1\78b13228d1b7806e4595749364e08dfc\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+192            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+192-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\lab410\.gradle\caches\transforms-2\files-2.1\78b13228d1b7806e4595749364e08dfc\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+193
+194        <meta-data
+194-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\lab410\.gradle\caches\transforms-2\files-2.1\ad072bd06501b4ced252e97ed9ee745e\play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+195            android:name="com.google.android.gms.version"
+195-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\lab410\.gradle\caches\transforms-2\files-2.1\ad072bd06501b4ced252e97ed9ee745e\play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+196            android:value="@integer/google_play_services_version" />
+196-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\lab410\.gradle\caches\transforms-2\files-2.1\ad072bd06501b4ced252e97ed9ee745e\play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+197    </application>
+198
+199</manifest>
